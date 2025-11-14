@@ -1,0 +1,24 @@
+{
+  "name": "@neo-heroes/types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types for Neo Heroes game",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "neo-heroes",
+    "types",
+    "typescript"
+  ],
+  "author": "Wiston Coronell",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
